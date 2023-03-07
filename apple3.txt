@@ -1,5 +1,0 @@
-apples = int(input(" how many apples are bought? "))
-
-print(f'''That is {appples // 12} dozens and {apples % 12 }
-The total amount is {apples // 12 * 100 + apples % 12 *10}
-''')
