@@ -1,0 +1,9 @@
+def bills(amount):
+    bills = [1000,500,200,100,50,20,10,5,1,0.25,0.1]
+    for x in bills:
+        res = amount // x
+        remain = amount % x 
+        print(res)
+        res = remain
+
+bills(1200)
